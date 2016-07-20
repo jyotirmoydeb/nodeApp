@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+        $.ajax({url: "http://localhost:8090/users",dataType: "jsonp", success: function(result){
+            $("#div1").html(result);
+        }});
+});
+</script>
+</head>
+<body>
+ <div id="div1"><h2>Hello! This is my web site up and Running</h2></div>
+</body>
+</html>
+

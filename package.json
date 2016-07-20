@@ -1,0 +1,14 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "my first node App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jyotirmoy Deb",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.5.4"
+  }
+}
